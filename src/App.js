@@ -15,7 +15,7 @@ function App() {
                 <Link to="/landing"><strong>Home</strong></Link>
                 <a target="_blank" href="https://docs.google.com/document/d/1CPAH_P5aEMXg0FRPvndkFijn5l8j1HURPMf2_Q9d-G8/edit?usp=sharing"><strong>Resume</strong></a>
                 <Link to="/project"><strong>Project</strong></Link>
-                <Link to="/aboutme"><strong>About me</strong></Link>
+            
                 <Link to="/contact"><strong>Contact</strong></Link>
             </Navigation>
         </Header>
@@ -24,7 +24,7 @@ function App() {
                  <Link to="/landing"><strong>Home</strong></Link>
                  <a target="_blank" href="https://docs.google.com/document/d/1CPAH_P5aEMXg0FRPvndkFijn5l8j1HURPMf2_Q9d-G8/edit?usp=sharing"><strong>Resume</strong></a>
                 <Link to="/project"><strong>Project</strong></Link>
-                <Link to="/aboutme"><strong>About me</strong></Link>
+          
                 <Link to="/contact"><strong>Contact</strong></Link>
             </Navigation>
         </Drawer>
