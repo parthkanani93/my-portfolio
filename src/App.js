@@ -1,24 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
 import './App.css';
+import Main from './Components/main';
+import { Link } from 'react-router-dom';
+import Particles from 'react-particles-js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="demo-big-content">
+    <Layout>
+        <Header className="header-color" title="Parth Portfolio" scroll>
+            <Navigation className="fixed-top">
+                <Link to="/landing"><strong>Home</strong></Link>
+                <a target="_blank" href="https://docs.google.com/document/d/1CPAH_P5aEMXg0FRPvndkFijn5l8j1HURPMf2_Q9d-G8/edit?usp=sharing"><strong>Resume</strong></a>
+                <Link to="/project"><strong>Project</strong></Link>
+                <Link to="/aboutme"><strong>About me</strong></Link>
+                <Link to="/contact"><strong>Contact</strong></Link>
+            </Navigation>
+        </Header>
+        <Drawer title="Parth Portfolio">
+            <Navigation>
+                 <Link to="/landing"><strong>Home</strong></Link>
+                 <a target="_blank" href="https://docs.google.com/document/d/1CPAH_P5aEMXg0FRPvndkFijn5l8j1HURPMf2_Q9d-G8/edit?usp=sharing"><strong>Resume</strong></a>
+                <Link to="/project"><strong>Project</strong></Link>
+                <Link to="/aboutme"><strong>About me</strong></Link>
+                <Link to="/contact"><strong>Contact</strong></Link>
+            </Navigation>
+        </Drawer>
+        <Content>
+            <div className="page-content" />
+            <Main/>
+           
+
+        </Content>
+    </Layout>
+</div>
     </div>
   );
 }
