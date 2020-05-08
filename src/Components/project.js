@@ -22,7 +22,7 @@ class Project extends Component {
             <Cell col={3} >
               {/* Project 1 */}
               <Card shadow={5} >
-                <CardTitle style={{ color: 'blue', height: '176px', backgroundImage: `url(${res})`,backgroundSize : 'cover' }} >Confusion Restaurant</CardTitle>
+                <CardTitle style={{color: '#fff',height: '176px', backgroundImage: `url(${res})`,backgroundSize : 'cover' }} >Confusion Restaurant</CardTitle>
                 <CardText>
                   In this project i made a Restaurant single page website in which i create various section like home,menu,about,contact us
                   using routing i route from one page to another also using redux i store the state and update it.using redux thunk i also impliment loading.. Component
@@ -30,11 +30,11 @@ class Project extends Component {
             </CardText>
                 <CardActions border>
                   <Button colored target="_blank" href="https://github.com/parthkanani93/react-course">GitHub</Button>
-                  <Button colored target="_blank">Live Demo</Button>
+                  <Button colored target="_blank" href="https://confusion-restaurant-react.netlify.app/">Live Demo</Button>
                 </CardActions>
-                <CardMenu style={{ color: '#fff' }}>
+                {/* <CardMenu style={{ color: '#fff' }}>
                   <IconButton name="share" />
-                </CardMenu>
+                </CardMenu> */}
               </Card>
 
 
@@ -53,9 +53,9 @@ class Project extends Component {
                   <Button colored target="_blank" href="https://github.com/parthkanani93/monster-rolodex" >GitHub</Button>
                   <Button colored target="_blank" href="https://parthkanani93.github.io/monster-rolodex/">Live Demo</Button>
                 </CardActions>
-                <CardMenu style={{ color: '#fff' }}>
+                {/* <CardMenu style={{ color: '#fff' }}>
                   <IconButton name="share" />
-                </CardMenu>
+                </CardMenu> */}
               </Card>
             </Cell>
             <Cell col={3}>
@@ -70,9 +70,9 @@ class Project extends Component {
                   <Button colored target="_blank" href="https://github.com/parthkanani93/my-portfolio" >GitHub</Button>
                   <Button colored target="_blank" href="https://parth-portfolio.netlify.app/" >Live Demo</Button>
                 </CardActions>
-                <CardMenu style={{ color: '#fff' }}>
+                {/* <CardMenu style={{ color: '#fff' }}>
                   <IconButton name="share" />
-                </CardMenu>
+                </CardMenu> */}
               </Card>
             </Cell>
 
