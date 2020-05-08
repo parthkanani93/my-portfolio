@@ -92,10 +92,10 @@ class Project extends Component {
       );
     }
     else if (this.state.activetab === 1) {
-      return (<div><h1>Currently No Projects</h1> </div>);
+      return (<div><h1></h1> </div>);
     }
     else if (this.state.activetab === 2) {
-      return (<div><h1>Currently No Projects</h1> </div>);
+      return (<div><h1></h1> </div>);
     }
 
   }
