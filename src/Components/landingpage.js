@@ -44,7 +44,7 @@ class Landing extends Component {
                         />
 
                         <div className="banner-txt">
-                            <h1>FullStack Web Developer</h1>
+                            <h1>Web Developer</h1>
                             <hr />
                             <p>HTML/CSS | javascript | Bootstrap | React js</p>
                             <div className="social-link">
