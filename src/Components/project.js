@@ -19,7 +19,7 @@ class Project extends Component {
 
 
           <Grid style={{justifyContent : 'center'}}>
-            <Cell col={3} >
+            <Cell phone={12} col={3}  >
               {/* Project 1 */}
               <Card shadow={5} >
                 <CardTitle style={{color: '#fff',height: '176px', backgroundImage: `url(${res})`,backgroundSize : 'cover' }} >Confusion Restaurant</CardTitle>
@@ -41,7 +41,7 @@ class Project extends Component {
 
 
             </Cell>
-            <Cell col={3}>
+            <Cell col={3} phone={12} >
 
               {/* Project 2 */}
               <Card shadow={5} style={{   }}>
@@ -58,7 +58,7 @@ class Project extends Component {
                 </CardMenu> */}
               </Card>
             </Cell>
-            <Cell col={3}>
+            <Cell col={3} phone={12} >
 
               {/* Project 3 */}
               <Card shadow={5} style={{  }}>

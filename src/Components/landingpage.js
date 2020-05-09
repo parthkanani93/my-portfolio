@@ -3,25 +3,25 @@ import { Grid, Cell } from 'react-mdl';
 import Particles from 'react-particles-js';
 
 
-const particalopts ={
-    
-        particles: {
-            number :{
-                value :200,
-                density :{
-                    enable :true,
-                    value_area :800
-                }
+const particalopts = {
+
+    particles: {
+        number: {
+            value: 200,
+            density: {
+                enable: true,
+                value_area: 800
             }
-           
         }
-    
-    
+
+    }
+
+
 }
 
 class Landing extends Component {
 
-    
+
 
     render() {
         return (
@@ -29,18 +29,18 @@ class Landing extends Component {
             <div style={{ width: "100%", margin: 'auto' }}>
                 <Grid className="landing-grid">
 
-                    <Cell col={12}>
+                    <Cell col={12} phone={6}>
 
                         <img
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_yhvGXHtP8leB8fhWCAOke-8h5gRG1Wxo6fS814OFjX_g1qOl"
                             alt="avtar"
-                            className="avtar-img" 
-                            style={{borderTopLeftRadius : "35px"}}/>
+                            className="avtar-img"
+                            style={{ borderRadius : '100%',radius:'circle' }} />
 
                         <Particles
                             className="particles"
                             params={particalopts}
-                          
+
                         />
 
                         <div className="banner-txt">

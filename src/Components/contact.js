@@ -24,18 +24,30 @@ class Contact extends Component {
                         <hr />
 
                         <div className="contact-list">
-                            <List>
-                                <ListItem>
-                                    <ListItemContent style={{fontSize : '25px', fontFamily: 'Anton' }}>
-                                    <i className="fa fa-phone-square" aria-hidden="true"/>  (+91) 70461-13670</ListItemContent>
+                            <List >
+                                <ListItem >
+                                    <Grid >
+                                        <Cell col={3} phone={12} style={{justifyContent : 'start'}}><i className="fa fa-phone-square" aria-hidden="true"/></Cell>
+                                        <Cell col={9} phone={12} style={{justifyContent : 'start'}}><ListItemContent style={{fontSize : '25px', fontFamily: 'Anton' }}>
+                                      (+91) 70461-13670</ListItemContent></Cell>
+                                    </Grid>
+                                    
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize : '25px', fontFamily: 'Anton' }}>
-                                    <i className="fa fa-envelope-square" aria-hidden="true"/>  parthkanani8490@gmail.com</ListItemContent>
+                                    <Grid  >
+                                        <Cell col={3}  phone={12} style={{justifyContent : 'center'}}> <i className="fa fa-envelope-square" aria-hidden="true"/></Cell>
+                                        <Cell col={9}  phone={12} style={{justifyContent : 'start'}}><ListItemContent style={{fontSize : '25px', fontFamily: 'Anton' }}>
+                                     parthkanani8490@gmail.com</ListItemContent></Cell>
+                                    </Grid>
+                                    
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize : '25px', fontFamily: 'Anton' }}>
-                                    <i className="fa fa-linkedin-square" aria-hidden="true"/>parth-kanani-1251a3162</ListItemContent>
+                                    <Grid >
+                                        <Cell col={3}  phone={12} style={{justifyContent : 'start'}}><i className="fa fa-linkedin-square" aria-hidden="true"/></Cell>
+                                        <Cell col={9}  phone={12} style={{justifyContent : 'start'}}><ListItemContent style={{fontSize : '25px', fontFamily: 'Anton' }}>
+                                    parth-kanani-1251a3162</ListItemContent></Cell>
+                                    </Grid>
+                                    
                                 </ListItem>
                             </List>
                         </div>
