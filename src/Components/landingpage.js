@@ -63,9 +63,9 @@ class Landing extends Component {
                                     <i className="fa fa-free-code-camp" aria-hidden="true" />
                                 </a>
 
-                                {/* Youtube */}
+                                {/* Hacker Rank */}
                                 <a href="https://www.hackerrank.com/parthkanani8490" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-youtube-square" aria-hidden="true" />
+                                    <i className="fa fa-header" aria-hidden="true" />
                                 </a>
 
                             </div>
