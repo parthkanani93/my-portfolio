@@ -64,7 +64,7 @@ class Landing extends Component {
                                 </a>
 
                                 {/* Youtube */}
-                                <a href="https://www.youtube.com/channel/UCBrDcz0xqq4z1JEtfKRR0BA/featured?view_as=subscriber" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.hackerrank.com/parthkanani8490" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-youtube-square" aria-hidden="true" />
                                 </a>
 
